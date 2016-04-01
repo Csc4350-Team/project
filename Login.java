@@ -32,7 +32,7 @@ public class Login extends Application {
 		grid.setVgap(10);
 		grid.setPadding(new Insets(25, 25, 25, 25));
 		
-		Scene scene = new Scene(grid, 620, 480);
+		Scene scene = new Scene(grid, 820, 680);
 		primaryStage.setScene(scene);
 		
 		Text scenetitle = new Text("Login to Sahara");
@@ -58,7 +58,6 @@ public class Login extends Application {
 		hbBtn.getChildren().add(btn);
 		grid.add(hbBtn, 1, 4);
 		
-		primaryStage.show();
-		
+		primaryStage.show();		
 	}
 }
